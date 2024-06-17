@@ -1,0 +1,7 @@
+/home/chris/PycharmProjects/sign-language-classification/venv/bin/python /home/chris/PycharmProjects/sign-language-classification/cnn-simple/evaluate.py
+On training dataset (!!!): Mean Accuracy: 0.9833
+
+On Jupyter test dataset:
+Mean Accuracy: 0.8500
+Mean Accuracy: 0.8562
+Mean Accuracy: 0.8479
