@@ -1,74 +1,10 @@
-/home/chris/PycharmProjects/sign-language-classification/venv/bin/python /home/chris/PycharmProjects/sign-language-classification/cnn-improved/train.py
-/home/chris/PycharmProjects/sign-language-classification/venv/lib/python3.12/site-packages/torch/autograd/graph.py:744: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:108.)
-  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
-Epoch [1, 100] loss: 3.431
-Epoch [1, 200] loss: 3.305
-Epoch [1, 300] loss: 3.040
-Epoch [2, 100] loss: 2.776
-Epoch [2, 200] loss: 2.489
-Epoch [2, 300] loss: 2.290
-Epoch [3, 100] loss: 2.145
-Epoch [3, 200] loss: 2.085
-Epoch [3, 300] loss: 1.973
-Epoch [4, 100] loss: 1.892
-Epoch [4, 200] loss: 1.787
-Epoch [4, 300] loss: 1.763
-Epoch [5, 100] loss: 1.704
-Epoch [5, 200] loss: 1.639
-Epoch [5, 300] loss: 1.596
-Epoch [6, 100] loss: 1.548
-Epoch [6, 200] loss: 1.543
-Epoch [6, 300] loss: 1.492
-Epoch [7, 100] loss: 1.513
-Epoch [7, 200] loss: 1.422
-Epoch [7, 300] loss: 1.391
-Epoch [8, 100] loss: 1.404
-Epoch [8, 200] loss: 1.379
-Epoch [8, 300] loss: 1.373
-Epoch [9, 100] loss: 1.299
-Epoch [9, 200] loss: 1.344
-Epoch [9, 300] loss: 1.268
-Epoch [10, 100] loss: 1.297
-Epoch [10, 200] loss: 1.261
-Epoch [10, 300] loss: 1.227
-Epoch [11, 100] loss: 1.257
-Epoch [11, 200] loss: 1.221
-Epoch [11, 300] loss: 1.202
-Epoch [12, 100] loss: 1.218
-Epoch [12, 200] loss: 1.163
-Epoch [12, 300] loss: 1.192
-Epoch [13, 100] loss: 1.185
-Epoch [13, 200] loss: 1.137
-Epoch [13, 300] loss: 1.145
-Epoch [14, 100] loss: 1.118
-Epoch [14, 200] loss: 1.146
-Epoch [14, 300] loss: 1.090
-Epoch [15, 100] loss: 1.133
-Epoch [15, 200] loss: 1.105
-Epoch [15, 300] loss: 1.073
-Epoch [16, 100] loss: 1.107
-Epoch [16, 200] loss: 1.067
-Epoch [16, 300] loss: 1.056
-Epoch [17, 100] loss: 1.076
-Epoch [17, 200] loss: 1.057
-Epoch [17, 300] loss: 1.089
-Epoch [18, 100] loss: 1.011
-Epoch [18, 200] loss: 1.061
-Epoch [18, 300] loss: 1.048
-Epoch [19, 100] loss: 1.015
-Epoch [19, 200] loss: 1.032
-Epoch [19, 300] loss: 1.027
-Epoch [20, 100] loss: 1.008
-Epoch [20, 200] loss: 1.015
-Epoch [20, 300] loss: 0.987
-Finished Training
-
-Process finished with exit code 0
-
-#############################################################
 /home/chris/PycharmProjects/sign-language-classification/venv/bin/python /home/chris/PycharmProjects/sign-language-classification/cnn-improved/evaluate.py
+On training dataset (!!!):
 Mean Accuracy: 0.7677
 Mean Accuracy: 0.7635
 Mean Accuracy: 0.7771
 
-// TODO
+On Jupyter test dataset:
+Mean Accuracy: 0.7500
+Mean Accuracy: 0.7438
+Mean Accuracy: 0.7448
