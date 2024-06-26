@@ -1,0 +1,2 @@
+score_hidden,score_train,unixtime,user,dt,comment
+,0.8901041666666667,1719397192.024916,chris,2024-06-26 12:19,[Errno 2] No such file or directory: '/data/mlproject22-test-data/sign_lang_test/labels.csv'
